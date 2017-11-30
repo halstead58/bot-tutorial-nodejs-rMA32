@@ -22,7 +22,6 @@ function respond() {
     this.res.writeHead(200);
     postMessage(cool());
     this.res.end();
-  }
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://i.groupme.com/640x364.jpeg.f8a0e216bf7e42ed9a86b3ae23cc2ff1.large");
@@ -37,27 +36,7 @@ function respond() {
     this.res.writeHead(200);
     postMessage("http://www.wikihow.com/Tie-a-Noose");
     this.res.end();
-  } 
-  else if(request.text && botRegexSlam.test(request.text)) {
-    this.res.writeHead(200);
-    postMessage("https://pbs.twimg.com/profile_images/587294731471757313/ZpI5PfKq.jpg");
-    this.res.end();
-  } 
-  else if(request.text && botRegexDaf.test(request.text)) {
-    this.res.writeHead(200);
-    postMessage("http://i3.kym-cdn.com/photos/images/facebook/000/787/356/d6f.jpg");
-    this.res.end();
-  } 
-  else if(request.text && botRegexBrye.test(request.text)) {
-    this.res.writeHead(200);
-    postMessage("https://i.groupme.com/600x490.jpeg.b31d5153fb474d9bb18dd51b3d650afe.large");
-    this.res.end();
-  } 
-  else if(request.text && botRegexGian.test(request.text)) {
-    this.res.writeHead(200);
-    postMessage("http://i.imgur.com/9V6ZnvD.png");
-    this.res.end();
-  } 
+  }  
   else if(request.text && botRegexScrotes.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://i.groupme.com/1006x1340.jpeg.730381e4280e4028b8375432af14f39f.large");
@@ -92,7 +71,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1hSuEG7oplnx4IX6HGsMOjsWb9TCqC4-F1NLjuBz5PCM/edit");
+    postMessage("http://daddyleagues.com/r3dzone/rules");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
